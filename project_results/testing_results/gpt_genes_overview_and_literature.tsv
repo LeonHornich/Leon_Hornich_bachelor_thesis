@@ -1,0 +1,54 @@
+Run	DrugZ Genes	Literature	MAGeCK MLE Genes	Literature
+1	ATM	https://aacrjournals.org/mct/article/12/11/2529/91622/Contribution-of-ATM-and-ATR-to-the-Resistance-of	CDK2	https://www.sciencedirect.com/science/article/abs/pii/S0378111922001445
+1	WEE1	https://www.cell.com/cancer-cell/fulltext/S1535-6108(10)00308-9	YBX1	https://www.nature.com/articles/s41598-019-47360-9
+1	TYMS	https://www.sciencedirect.com/science/article/abs/pii/S001429991930617X	MED12	https://link.springer.com/article/10.1007/s00018-021-04056-6
+1	FANCA	https://pmc.ncbi.nlm.nih.gov/articles/PMC11322876/	HSD17B10	https://onlinelibrary.wiley.com/doi/full/10.1002/ijc.24457?casa_token=KLhRGdJCiNEAAAAA%3AcHV3EYstlalh_T3PcIz79LlhvnYk-Wx4iA-Suc6F-31JquicmK6MZXp7lKsQhTAo4zyeQpibei9pRw
+1			COX15	https://aacrjournals.org/mct/article/19/12/2445/274246/MP-Pt-IV-A-MAOB-Sensitive-Mitochondrial-Specific
+1			SKP2	https://link.springer.com/article/10.1186/s12935-020-1144-z
+2	KEAP1	https://link.springer.com/article/10.1007/s12032-022-01693-0	CDK2	https://www.sciencedirect.com/science/article/abs/pii/S0378111922001445
+2	ATR	https://aacrjournals.org/mct/article/12/11/2529/91622/Contribution-of-ATM-and-ATR-to-the-Resistance-of	CDC25B	https://jcp.bmj.com/content/59/7/725.abstract?casa_token=_ZAA-RiXsaUAAAAA:8gkvNpRE1rj0e-3J5Xyud64ZJIOVmxKoeFHbwgLxp6oYjFSSwTYnY_3GyFFMAYB8WfFrtv_FpWE
+2	TP53	https://www.mdpi.com/2072-6694/10/9/297	E2F7	https://www.nature.com/articles/s41416-020-01032-y
+2			SKP2	https://link.springer.com/article/10.1186/s12935-020-1144-z
+2			SMAD7	https://www.sciencedirect.com/science/article/abs/pii/S0006291X1500889X
+2			MYC	https://www.pnas.org/doi/abs/10.1073/pnas.83.2.470
+3	ATM	https://aacrjournals.org/mct/article/12/11/2529/91622/Contribution-of-ATM-and-ATR-to-the-Resistance-of	CDK2	https://www.sciencedirect.com/science/article/abs/pii/S0378111922001445
+3	WEE1	https://www.cell.com/cancer-cell/fulltext/S1535-6108(10)00308-9	CDC25B	https://jcp.bmj.com/content/59/7/725.abstract?casa_token=_ZAA-RiXsaUAAAAA:8gkvNpRE1rj0e-3J5Xyud64ZJIOVmxKoeFHbwgLxp6oYjFSSwTYnY_3GyFFMAYB8WfFrtv_FpWE
+3	KEAP1	https://link.springer.com/article/10.1007/s12032-022-01693-0	ELP3	https://rupress.org/jem/article/212/12/2057/41862/Elp3-drives-Wnt-dependent-tumor-initiation-and
+3			FBXO48	https://dergipark.org.tr/en/pub/dicletip/article/987908
+3			YBX1	https://www.nature.com/articles/s41598-019-47360-9
+4	ATM	https://aacrjournals.org/mct/article/12/11/2529/91622/Contribution-of-ATM-and-ATR-to-the-Resistance-of	CDK2	https://www.sciencedirect.com/science/article/abs/pii/S0378111922001445
+4	WEE1	https://www.cell.com/cancer-cell/fulltext/S1535-6108(10)00308-9	CARM1	https://www.sciencedirect.com/science/article/abs/pii/S0006291X20300486
+4	PTEN	https://www.tandfonline.com/doi/abs/10.4161/cbt.7.9.6954	YBX1	https://www.nature.com/articles/s41598-019-47360-9
+4	EGFR	https://link.springer.com/article/10.1007/s40263-017-0456-6	SKP2	https://link.springer.com/article/10.1186/s12935-020-1144-z
+4	MGMT	https://www.cell.com/trends/cancer/abstract/S2405-8033(20)30070-4	FOXM1	https://www.ingentaconnect.com/content/ben/cpd/2015/00000021/00000010/art00006
+4	IDH1	https://www.cell.com/cell-reports/fulltext/S2211-1247(18)30521-7	MYC	https://www.pnas.org/doi/abs/10.1073/pnas.83.2.470
+4			MED12	https://link.springer.com/article/10.1007/s00018-021-04056-6
+4			HSD17B10	https://onlinelibrary.wiley.com/doi/full/10.1002/ijc.24457?casa_token=KLhRGdJCiNEAAAAA%3AcHV3EYstlalh_T3PcIz79LlhvnYk-Wx4iA-Suc6F-31JquicmK6MZXp7lKsQhTAo4zyeQpibei9pRw
+5	ATM	https://aacrjournals.org/mct/article/12/11/2529/91622/Contribution-of-ATM-and-ATR-to-the-Resistance-of	CDK2	https://www.sciencedirect.com/science/article/abs/pii/S0378111922001445
+5	WEE1	https://www.cell.com/cancer-cell/fulltext/S1535-6108(10)00308-9	SKP2	https://link.springer.com/article/10.1186/s12935-020-1144-z
+5	ATR	https://aacrjournals.org/mct/article/12/11/2529/91622/Contribution-of-ATM-and-ATR-to-the-Resistance-of	MDM2	https://www.mdpi.com/2227-9059/11/7/1879
+5	RAD51	https://link.springer.com/article/10.1186/s12885-016-2647-9	FOXM1	https://www.ingentaconnect.com/content/ben/cpd/2015/00000021/00000010/art00006
+5	KEAP1	https://link.springer.com/article/10.1007/s12032-022-01693-0		
+6	POLE4	https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1260409/full	CDK2	https://www.sciencedirect.com/science/article/abs/pii/S0378111922001445
+6	ATM	https://aacrjournals.org/mct/article/12/11/2529/91622/Contribution-of-ATM-and-ATR-to-the-Resistance-of	CDC25B	https://jcp.bmj.com/content/59/7/725.abstract?casa_token=_ZAA-RiXsaUAAAAA:8gkvNpRE1rj0e-3J5Xyud64ZJIOVmxKoeFHbwgLxp6oYjFSSwTYnY_3GyFFMAYB8WfFrtv_FpWE
+6	RAD9A	https://aacrjournals.org/cancerres/article/83/7_Supplement/2819/722520	ELP3	https://rupress.org/jem/article/212/12/2057/41862/Elp3-drives-Wnt-dependent-tumor-initiation-and
+7	ATM	https://aacrjournals.org/mct/article/12/11/2529/91622/Contribution-of-ATM-and-ATR-to-the-Resistance-of	CDK2	https://www.sciencedirect.com/science/article/abs/pii/S0378111922001445
+7	HUS1	https://www.tandfonline.com/doi/full/10.1080/07853890.2023.2200033#abstract	FBXO48	https://dergipark.org.tr/en/pub/dicletip/article/987908
+7	RAD1	https://www.sciencedirect.com/science/article/pii/S0753332219353818	YBX1	https://www.nature.com/articles/s41598-019-47360-9
+7	WEE1	https://www.cell.com/cancer-cell/fulltext/S1535-6108(10)00308-9	SKP2	https://link.springer.com/article/10.1186/s12935-020-1144-z
+7	FANCD2	https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.921963/full	E2F7	https://www.nature.com/articles/s41416-020-01032-y
+7	ATRIP	https://academic.oup.com/neuro-oncology/article/21/11/1458/5539012		
+7	FANCA	https://pmc.ncbi.nlm.nih.gov/articles/PMC11322876/		
+8	ATR	https://aacrjournals.org/mct/article/12/11/2529/91622/Contribution-of-ATM-and-ATR-to-the-Resistance-of	CDK2	https://www.sciencedirect.com/science/article/abs/pii/S0378111922001445
+8	RECQL4	https://www.mdpi.com/2072-6694/12/10/2919	E2F7	https://www.nature.com/articles/s41416-020-01032-y
+8	WEE1	https://www.cell.com/cancer-cell/fulltext/S1535-6108(10)00308-9	USP38	https://www.termedia.pl/USP38-might-be-a-new-therapeutic-target-for-glioma-via-regulation-of-cancer-cell-metastasis,20,46162,0,1.html
+8	RAD17	https://aacrjournals.org/cancerres/article/76/8/2340/621798/The-Error-Prone-DNA-Polymerase-Promotes	SMARCA5	https://aacrjournals.org/mcr/article/19/1/48/271338/A-Novel-miR-146a-POU3F2-SMARCA5-Pathway-Regulates
+9	POLE4	https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1260409/full	ATP5H	https://link.springer.com/article/10.1007/s11060-015-1984-x
+9	HIRA	https://royalsocietypublishing.org/doi/full/10.1098/rsob.190156	CDK13	https://www.biorxiv.org/content/10.1101/2023.07.14.548985v1.abstract
+9	ATM	https://aacrjournals.org/mct/article/12/11/2529/91622/Contribution-of-ATM-and-ATR-to-the-Resistance-of		
+9	RAD1	https://www.sciencedirect.com/science/article/pii/S0753332219353818		
+9	UBE2T	https://onlinelibrary.wiley.com/doi/full/10.1111/cas.15604		
+9	HUS1	https://www.tandfonline.com/doi/full/10.1080/07853890.2023.2200033#abstract		
+9	WEE1	https://www.cell.com/cancer-cell/fulltext/S1535-6108(10)00308-9		
+9	RAD9A	https://aacrjournals.org/cancerres/article/83/7_Supplement/2819/722520		
+9	ATRIP	https://academic.oup.com/neuro-oncology/article/21/11/1458/5539012		
