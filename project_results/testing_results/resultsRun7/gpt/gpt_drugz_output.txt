@@ -1,0 +1,31 @@
+The following genes have been linked to ATR (Ataxia Telangiectasia and Rad3-related protein) inhibition in glioblastoma upon drug treatment:  
+1. **ATM**
+2. **HUS1**
+3. **RAD1**
+4. **WEE1**
+5. **FANCD2**
+6. **ATRIP**
+7. **FANCA**
+
+### ATM 
+Ataxia Telangiectasia Mutated (ATM) is a key player in the cellular response to DNA damage. Studies have indicated that inhibition of ATR leads to reliance on ATM signaling pathways for survival in glioblastoma cells. In treated glioblastoma models, the loss of ATR leads to DNA repair impairment, which activates ATM-induced checkpoints and apoptosis pathways. This suggests that tumors with ATM mutations might be particularly sensitive to ATR inhibitors, providing a rationale for exploring ATM as a predictive marker for therapeutic response.
+
+### HUS1
+HUS1 forms part of the clamp complex that is crucial for the ATR-Chk1 signaling pathway. In glioblastoma, research indicates that HUS1 may potentiate ATR inhibitor effects, as its depletion results in increased genomic instability and sensitizes cells to treatment. This finding underscores HUS1's role as a protective factor in maintaining genomic integrity during ATR inhibition and suggests that targeting HUS1 might sensitize tumor cells to ATR-targeted therapies.
+
+### RAD1
+RAD1 is an integral component of the DNA damage response mechanism that also interacts with ATR. In glioblastoma cells treated with ATR inhibitors, RAD1 has been shown to modulate cell cycle checkpoints. The findings indicate that RAD1 expressions could correlate with glioblastoma sensitivity to ATR inhibitors, and its knockdown leads to enhanced cell death following ATR inhibition. Subsequently, RAD1 may emerge as a biomarker for assessing therapeutic efficacy in combination with ATR inhibitors.
+
+### WEE1
+WEE1 encodes a kinase that inhibits cyclin-dependent kinases (CDKs), thereby regulating cell cycle progression and cell division in response to DNA damage. Studies have shown that ATR inhibition leads to downregulation of WEE1, which in turn results in unrestrained CDK activity and premature entry into mitosis, contributing to genomic instability. Therefore, targeting WEE1 could synergistically enhance the effects of ATR inhibitors, sensitizing glioblastoma cells to apoptosis.
+
+### FANCD2
+FANCD2 is a crucial player in the Fanconi Anemia DNA repair pathway, and its activity is closely tied to ATR signaling. In glioblastoma, studies have shown that ATR inhibition leads to reduced FANCD2 monoubiquitination, which impairs DNA repair mechanisms. Consequently, glioblastoma cells become more vulnerable to DNA-damaging agents due to the compromised repair pathway associated with FANCD2. Targeting FANCD2 in conjunction with ATR inhibitors could thus represent a potent therapeutic strategy for combating glioblastoma.
+
+### ATRIP
+ATRIP (ATR Interacting Protein) is essential for ATR signaling through its involvement in the recruitment of ATR to sites of DNA damage. Research showcases that inhibition of ATR leads to an increase in DNA damage markers, and that ATRIP depletion compounds this effect. These findings suggest that ATRIP aids in mediating the cellular response to DNA damage in glioblastoma, marking it as a potential target to enhance the efficacy of ATR inhibitors.
+
+### FANCA
+FANCA is another gene implicated in the Fanconi Anemia pathway that intersects with ATR signaling. The relationship between FANCA and ATR in terms of DNA repair efficacy has been underscored in glioblastoma studies, where the inhibition of ATR in FANCA-deficient cells results in exacerbated DNA damage. This indicates that FANCA's role is vital in maintaining genomic stability, and its status may serve as a predictive marker for the responsiveness of glioblastoma to ATR inhibitors.
+
+These findings collectively highlight the significance of these genes in mediating cellular responses to ATR inhibition in glioblastoma, offering avenues for therapeutic targeting to optimize treatment outcomes.

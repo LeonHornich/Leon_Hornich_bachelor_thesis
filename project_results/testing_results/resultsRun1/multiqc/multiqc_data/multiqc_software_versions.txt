@@ -1,0 +1,5 @@
+Sample	python	MAGeCKFlute	ggplot2	clusterProfiler	pathview	mageck	nf-core/crisprseq	Nextflow
+DRUGZ	3.11.4							
+MAGECK_FLUTEMLE_CONTRASTS		2.2.0	3.4.0	4.6.0	1.38.0			
+MAGECK_MLE						0.5.9.5		
+Workflow							2.3.0	24.10.2

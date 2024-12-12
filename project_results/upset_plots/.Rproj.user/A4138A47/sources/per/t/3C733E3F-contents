@@ -1,0 +1,229 @@
+---
+title: "UpSet Plot"
+author: "Leon Hornich"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Install packages if necessary
+
+```{r}
+# install.packages("UpSetR")
+```
+
+
+## Load libraries
+
+```{r}
+library(UpSetR)
+```
+
+
+## Define data
+
+```{r}
+# Group 1: DrugZ + Q1
+run1_drugz_4o_mini <- c('ATM', 'WEE1', 'TYMS', 'FANCA')
+run2_drugz_4o <- c('KEAP1', 'ATR', 'TP53')
+run3_drugz_3p5_turbo <- c('ATM', 'WEE1', 'KEAP1')
+
+# Group 2: DrugZ + Q2
+run4_drugz_4o_mini <- c('ATM', 'WEE1', 'PTEN', 'EGFR', 'MGMT', 'IDH1')
+run5_drugz_4o <- c('ATM', 'WEE1', 'ATR', 'RAD51', 'KEAP1')
+run6_drugz_3p5_turbo <- c('POLE4', 'ATM', 'RAD9A')
+
+# Group 3: DrugZ + Q3
+run7_drugz_4o_mini <- c('ATM', 'HUS1', 'RAD1', 'WEE1', 'FANCD2', 'ATRIP', 'FANCA')
+run8_drugz_4o <- c('ATR', 'RECQL4', 'WEE1', 'RAD17')
+run9_drugz_3p5_turbo <- c('POLE4', 'HIRA', 'ATM', 'RAD1', 'UBE2T', 'HUS1', 'WEE1', 'RAD9A', 'ATRIP')
+
+# Group 4: MLE + Q1
+run1_mle_4o_mini <- c('CDK2', 'YBX1', 'MED12', 'HSD17B10', 'COX15', 'SKP2')
+run2_mle_4o <- c('CDK2', 'CDC25B', 'E2F7', 'SKP2', 'SMAD7', 'MYC')
+run3_mle_3p5_turbo <- c('CDK2', 'CDC25B', 'ELP3', 'FBXO48', 'YBX1')
+
+# Group 5: MLE + Q2
+run4_mle_4o_mini <- c('CDK2', 'CARM1', 'YBX1', 'SKP2', 'FOXM1', 'MYC', 'MED12', 'HSD17B10')
+run5_mle_4o <- c('CDK2', 'SKP2', 'MDM2', 'FOXM1')
+run6_mle_3p5_turbo <- c('CDK2', 'CDC25B', 'ELP3')
+
+# Group 6: MLE + Q3
+run7_mle_4o_mini <- c('CDK2', 'FBXO48', 'YBX1', 'SKP2', 'E2F7')
+run8_mle_4o <- c('CDK2', 'E2F7', 'USP38', 'SMARCA5')
+run9_mle_3p5_turbo <- c('ATP5H', 'CDK13')
+
+```
+
+
+## Plotting the groups
+
+```{r}
+# Create a plots folder
+dir.create("plots")
+
+# Plot: Group 1
+data_group_1 <- list(
+  run1_drugz_4o_mini = run1_drugz_4o_mini,
+  run2_drugz_4o = run2_drugz_4o,
+  run3_drugz_3p5_turbo = run3_drugz_3p5_turbo
+)
+
+png(
+  filename = "plots/upset_group1.png",
+  width = 8, 
+  height = 6, 
+  units = "in", 
+  res = 300
+)
+upset(
+  data = fromList(data_group_1), 
+  order.by = "freq",
+  main.bar.color = "darkorchid3",
+  sets.bar.color = "darkcyan",
+  matrix.color = "indianred3",
+  text.scale = 1.5
+)
+
+dev.off()
+```
+
+```{r}
+# Plot: Group 2
+data_group_2 <- list(
+  run4_drugz_4o_mini = run4_drugz_4o_mini,
+  run5_drugz_4o = run5_drugz_4o,
+  run6_drugz_3p5_turbo = run6_drugz_3p5_turbo
+)
+
+png(
+  filename = "plots/upset_group2.png",
+  width = 8, 
+  height = 6, 
+  units = "in", 
+  res = 300
+)
+upset(
+  data = fromList(data_group_2), 
+  order.by = "freq",
+  main.bar.color = "darkorchid3",
+  sets.bar.color = "darkcyan",
+  matrix.color = "indianred3",
+  text.scale = 1.5
+)
+dev.off()
+```
+
+```{r}
+# Plot: Group 3
+data_group_3 <- list(
+  run7_drugz_4o_mini = run7_drugz_4o_mini,
+  run8_drugz_4o = run8_drugz_4o,
+  run9_drugz_3p5_turbo = run9_drugz_3p5_turbo
+)
+
+png(
+  filename = "plots/upset_group3.png",
+  width = 8, 
+  height = 6, 
+  units = "in", 
+  res = 300
+)
+upset(
+  data = fromList(data_group_3), 
+  order.by = "freq",
+  main.bar.color = "darkorchid3",
+  sets.bar.color = "darkcyan",
+  matrix.color = "indianred3",
+  text.scale = 1.5
+)
+dev.off()
+```
+
+```{r}
+# Plot: Group 4
+data_group_4 <- list(
+  run1_mle_4o_mini = run1_mle_4o_mini,
+  run2_mle_4o = run2_mle_4o,
+  run3_mle_3p5_turbo = run3_mle_3p5_turbo
+)
+
+png(
+  filename = "plots/upset_group4.png",
+  width = 8, 
+  height = 6, 
+  units = "in", 
+  res = 300
+)
+upset(
+  data = fromList(data_group_4), 
+  order.by = "freq",
+  main.bar.color = "darkorchid3",
+  sets.bar.color = "darkcyan",
+  matrix.color = "indianred3",
+  text.scale = 1.5
+)
+dev.off()
+```
+
+```{r}
+# Plot: Group 5
+data_group_5 <- list(
+  run4_mle_4o_mini = run4_mle_4o_mini,
+  run5_mle_4o = run5_mle_4o,
+  run6_mle_3p5_turbo = run6_mle_3p5_turbo
+)
+
+png(
+  filename = "plots/upset_group5.png",
+  width = 8, 
+  height = 6, 
+  units = "in", 
+  res = 300
+)
+upset(
+  data = fromList(data_group_5), 
+  order.by = "freq",
+  main.bar.color = "darkorchid3",
+  sets.bar.color = "darkcyan",
+  matrix.color = "indianred3",
+  text.scale = 1.5
+)
+dev.off()
+```
+
+```{r}
+# Plot: Group 6
+data_group_6 <- list(
+  run7_mle_4o_mini = run7_mle_4o_mini,
+  run8_mle_4o = run8_mle_4o,
+  run9_mle_3p5_turbo = run9_mle_3p5_turbo
+)
+
+png(
+  filename = "plots/upset_group6.png",
+  width = 8, 
+  height = 6, 
+  units = "in", 
+  res = 300
+)
+upset(
+  data = fromList(data_group_6), 
+  order.by = "freq",
+  main.bar.color = "darkorchid3",
+  sets.bar.color = "darkcyan",
+  matrix.color = "indianred3",
+  text.scale = 1.5
+)
+dev.off()
+```
+
+
+
+
+
+
+

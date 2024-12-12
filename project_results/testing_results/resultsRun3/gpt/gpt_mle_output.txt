@@ -1,0 +1,11 @@
+Some of the genes that have historically shown significance in the context of a CRISPR knockout include CDK2, CDC25B, ELP3, FBXO48, and YBX1. 
+
+CDK2, or Cyclin Dependent Kinase 2, is a gene that plays a key role in cell cycle regulation. CRISPR knockout studies have shown that CDK2 depletion can lead to cell cycle arrest and impaired cell proliferation, highlighting its importance in cell growth and division.
+
+CDC25B is another gene that has shown significance in CRISPR knockout experiments. CDC25B is a phosphatase enzyme involved in cell cycle progression, particularly in the G2 phase. Knocking out CDC25B has been found to disrupt cell cycle progression, leading to cell cycle arrest and impaired cell division.
+
+ELP3 is a gene encoding a subunit of the RNA polymerase II elongator complex, which is involved in transcriptional elongation. CRISPR knockout studies targeting ELP3 have revealed its importance in regulating gene expression and cell growth, with ELP3 depletion resulting in impaired transcription and cell proliferation.
+
+FBXO48 is a gene encoding a member of the F-box protein family, which are components of the E3 ubiquitin ligase complex involved in protein degradation. Knockout of FBXO48 has been shown to affect protein turnover and cellular homeostasis, highlighting its role in maintaining protein balance within cells.
+
+YBX1, or Y-Box Binding Protein 1, is a gene encoding a transcription factor that plays a role in DNA repair, RNA processing, and cell proliferation. CRISPR knockout studies have revealed that YBX1 depletion can lead to defects in DNA repair mechanisms and impaired cell survival, underscoring its importance in maintaining genomic stability and cell viability.
