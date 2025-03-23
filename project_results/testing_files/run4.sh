@@ -1,11 +1,11 @@
 ~/bin/nextflow run crisprseq/. \
 -profile docker \
 --analysis screening \
---count_table /home-link/zxoij30/bsc/DATA/counts_cleaned.tsv \
+--count_table /path/to/counts_cleaned.tsv \
 --mle \
 --drugz \
---contrasts /home-link/zxoij30/bsc/DATA/contrast.csv \
+--contrasts /path/to/contrast.csv \
 --gpt_interpretation drugz,mle \
 --outdir ./resultsRun4 \
--c /home-link/zxoij30/bsc/run4.config \
+-c /path/to/run4.config \
 -resume
